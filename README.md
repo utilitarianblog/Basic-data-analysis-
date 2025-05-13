@@ -1,13 +1,13 @@
 # Basic-data-analysis
 
 ```markdown
-# 🌸 Iris Data Analysis Project
+Iris Data Analysis Project
 
 This project provides a comprehensive analysis of the **Iris** dataset, a classic dataset for machine learning. The analysis includes data loading, exploration, statistical summaries, and various visualizations.
 
 ---
 
-## 📁 Project Structure
+Project Structure
 
 ```
 
@@ -21,7 +21,7 @@ Iris\_Data\_Analysis/
 
 ---
 
-## 📊 Dataset Overview
+📊 Dataset Overview
 
 The **Iris** dataset contains 150 observations of iris flowers from three species: *Setosa*, *Versicolor*, and *Virginica*. It includes the following features:
 
@@ -33,7 +33,7 @@ The **Iris** dataset contains 150 observations of iris flowers from three specie
 
 ---
 
-## 🚀 Getting Started
+🚀 Getting Started
 
 ### **1. Clone the Repository**
 
@@ -60,7 +60,7 @@ python Iris_Data_Analysis.py
 
 
 
-## 📈 Visualizations
+📈 Visualizations
 
 The analysis script generates the following visualizations:
 
@@ -70,7 +70,7 @@ The analysis script generates the following visualizations:
 4. **Scatter Plot:** Sepal length vs. petal length
 
 
-## 📝 Key Findings
+📝 Key Findings
 
 * **Distinct Species Characteristics:** Setosa has significantly smaller petal dimensions.
 * **Clear Separation:** The data is well-separated by species, making it ideal for classification tasks.
@@ -78,12 +78,12 @@ The analysis script generates the following visualizations:
 
 
 
-## 🤝 Contributing
+🤝 Contributing
 
 Feel free to open issues or submit pull requests if you have ideas for improving this project.
 
 ---
 
-## 📄 License
+📄 License
 
 This project is licensed under the MIT License.
