@@ -1,0 +1,104 @@
+## **Installing the Project Locally**
+
+To set up and run your **Iris Data Analysis** project on your local machine, follow these steps:
+
+---
+
+## **Step 1: Clone the Repository (if using GitHub)**
+
+If you have uploaded the project to GitHub, clone it to your local machine:
+
+```bash
+git clone <your-repository-url>
+cd Iris_Data_Analysis
+```
+
+Replace **<your-repository-url>** with the actual URL of your GitHub repository.
+
+---
+
+## **Step 2: Create a Virtual Environment (Recommended)**
+
+It’s a good practice to use a virtual environment to avoid conflicts with other Python projects:
+
+**For Windows:**
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+**For macOS/Linux:**
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+## **Step 3: Install the Required Packages**
+
+Use the `requirements.txt` file to install all the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## **Step 4: Run the Script**
+
+Once the dependencies are installed, run the analysis script:
+
+```bash
+python Iris_Data_Analysis.py
+```
+
+---
+
+## **Step 5: Verify the Installation**
+
+If the script runs without errors, you should see:
+
+* The first few rows of the **Iris** dataset.
+* Basic statistics and average measurements per species.
+* Four different visualizations:
+
+  * Line Chart
+  * Bar Chart
+  * Histogram
+  * Scatter Plot
+
+---
+
+## **Step 6: Deactivate the Virtual Environment (Optional)**
+
+When you’re done, you can deactivate the virtual environment:
+
+```bash
+deactivate
+```
+
+---
+
+## **Troubleshooting Installation Issues**
+
+If you encounter errors during installation:
+
+1. **Update Pip:**
+
+   ```bash
+   pip install --upgrade pip
+   ```
+
+2. **Check Python Version:**
+   Ensure you’re using **Python 3.8+**, as some packages might not support older versions.
+
+3. **Missing Packages:**
+   If a package is missing, manually install it:
+
+   ```bash
+   pip install pandas matplotlib seaborn
+   ```
+
